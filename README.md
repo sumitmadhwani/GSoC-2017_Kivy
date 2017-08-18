@@ -4,7 +4,7 @@ My work in Plyer includes the designing and implementation of platform independe
 
 I have also contributed some of the code to projects Pyjnius and Pyobjus.
 
-In Pyjnius, if we need to override a JAVA method then we have to provide signature of that method to Pyjnius's property `java_method`. I made a pull request on documenting the step wise procedure for finding signature of Android methods.
+In Pyjnius, if we need to override a JAVA method then we have to provide signature of that method to Pyjnius' property `java_method`. I made a pull request on documenting the step wise procedure for finding signature of Android methods.
 
 In Pyobjus, for implementing any sensor, we need to make a bridge in pyobjus since that part of code cannot be converted from Objective C to python. So I needed to add some Objective C code for implementation of sensors in Plyer.
 
