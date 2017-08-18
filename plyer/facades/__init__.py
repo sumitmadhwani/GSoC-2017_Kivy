@@ -9,7 +9,7 @@ __all__ = ('Barometer', 'Brightness', 'Compass', 'Fingerprint',
 			'GameRotation', 'GeomagneticRotation', 'Gravity', 'Gyroscope',
 			'Light', 'NetworkInfo', 'Proximity', 'SmsReceive',
 			'SpatialOrientation', 'SpellCheck', 'Temperature',
-			'UserAcceleration')
+			'UserAcceleration', 'StoragePath')
 
 from plyer.facades.barometer import Barometer
 from plyer.facades.brightness import Brightness
@@ -27,3 +27,4 @@ from plyer.facades.spatialorientation import SpatialOrientation
 from plyer.facades.spellcheck import SpellCheck
 from plyer.facades.temperature import Temperature
 from plyer.facades.useracceleration import UserAcceleration
+from plyer.facades.storagepath import StoragePath

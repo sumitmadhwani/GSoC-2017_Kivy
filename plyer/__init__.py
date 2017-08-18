@@ -8,7 +8,7 @@ __all__ = ('barometer', 'brightness', 'compass', 'fingerprint',
 			'gamerotation', 'geomagneticrotation', 'gravity', 'gyroscope',
 			'light', 'networkinfo', 'proximity', 'smsreceive',
 			'spatialorientation', 'spellcheck', 'temperature',
-			'useracceleration')
+			'useracceleration', 'storagepath')
 
 __version__ = '1.3.1dev'
 
@@ -63,3 +63,6 @@ temperature = Proxy('temperature', facades.Temperature)
 
 #: UserAcceleration proxy to :class:`plyer.facades.UserAcceleration`
 useracceleration = Proxy('useracceleration', facades.UserAcceleration)
+
+#: StoragePath proxy to :class:`plyer.facades.StoragePath`
+storagepath = Proxy('storagepath', facades.StoragePath)
