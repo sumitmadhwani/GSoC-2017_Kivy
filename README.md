@@ -1,4 +1,4 @@
-This repository contains all the code which I have contributed to Kivy's sister project Plyer during my 3 month GSoC internship.
+This repository contains all the code which I have contributed to Kivy's sister project Plyer during my 3 month GSoC'17 program.
 
 My work in Plyer includes the designing and implementation of platform independent APIs. Target platforms are Android, iOS, Linux, Windows, Mac OS X.
 
