@@ -1,5 +1,7 @@
 This repository contains all the code which I have contributed to Kivy's sister project Plyer during my 3 month GSoC'17 program.
 
+For complete project, go to https://github.com/kivy/plyer
+
 My work in Plyer includes the designing and implementation of platform independent APIs. Target platforms are Android, iOS, Linux, Windows, Mac OS X.
 
 I have also contributed some of the code to projects Pyjnius and Pyobjus.
